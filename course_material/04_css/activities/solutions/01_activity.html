@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Student Bio</title>
+
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        color: #333;
+        background: #efeee7;
+      }
+
+      header {
+        background: #333;
+      }
+
+      h1 {
+        padding: 20px 0;
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: #eee;
+        text-align: center;
+      }
+
+      .container {
+        width: 1024px;
+        margin: 0 auto;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      a {
+        color: #d21034;
+      }
+
+      #main-bio,
+      #contact-info,
+      #bio-image {
+        float: left;
+      }
+
+      #main-bio {
+        width: 70%;
+      }
+
+      #contact-info {
+        width: 30%;
+      }
+
+      #bio-image {
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+      }
+
+      #extra-elements {
+        clear: both;
+        text-align: center;
+      }
+
+      #animal-table {
+        margin: 0 auto;
+      }
+
+      #animal-table th,
+      #animal-table td {
+        outline: 1px solid #333;
+        padding: 5px;
+      }
+
+      #fav-musician-video {
+        border: 4px solid #333;
+        box-shadow: 0 0 10px #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Student Bio</h1>
+    </header>
+
+    <div class="container">
+      <section id="main-bio">
+        <h2>Chris Human</h2>
+        <img id="bio-image" src="https://via.placeholder.com/200x200" alt="placeholder" />
+
+        <p>
+          I am a software engineer. I also enjoy playing video games, reading books, and watching movies. My favorite dog breed is
+          the Pit Bull.
+        </p>
+        <!-- cSpell: disable -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatem incidunt maxime explicabo, iure illo inventore
+          qui excepturi autem, doloremque nisi cum vitae assumenda alias.
+        </p>
+        <!-- cSpell: enable -->
+      </section>
+
+      <section id="contact-info">
+        <h3>Contact Info</h3>
+        <ul>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:42072991+chrishuman0923@users.noreply.github.com">42072991+chrishuman0923@users.noreply.github.com</a>
+          </li>
+          <li>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/chrishuman0923" target="_blank">chrishuman0923</a>
+          </li>
+          <li>
+            <strong>Portfolio:</strong>
+            <a href="#">Coming Soon</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="extra-elements">
+        <table id="animal-table">
+          <thead>
+            <tr>
+              <th>Animal Name</th>
+              <th>Color</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>dog</td>
+              <td>black</td>
+            </tr>
+            <tr>
+              <td>cat</td>
+              <td>white</td>
+            </tr>
+            <tr>
+              <td>bird</td>
+              <td>blue</td>
+            </tr>
+            <tr>
+              <td>fish</td>
+              <td>red</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+
+        <iframe
+          id="fav-musician-video"
+          title="Newsboys - Jesus Freak (Spinning Drums) Video"
+          width="640"
+          height="480"
+          src="https://www.youtube.com/embed/19zJLsRgqaA?start=45&controls=0"
+        ></iframe>
+      </section>
+    </div>
+  </body>
+</html>
