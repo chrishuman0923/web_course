@@ -20,5 +20,3 @@ In a new HTML file, create the basic structure of an HTML document and include t
 
 - Create an ordered list of steps to make a sandwich.
 - Create an unordered list of 5 bands/musicians you like.
-- Create a table with 2 columns (animal class and animal name) and 4 rows of animals.
-- Embed a Youtube video of your favorite band/musician.
