@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: #333;
+  background: #efeee7;
+}
+
+header {
+  background: #333;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+#extra-elements {
+  clear: both;
+  text-align: center;
+}
+
+#animal-table {
+  margin: 0 auto;
+}
+
+#animal-table th,
+#animal-table td {
+  outline: 1px solid #333;
+  padding: 5px;
+}
+
+#fav-musician-video {
+  border: 4px solid #333;
+  box-shadow: 0 0 10px #333;
+}

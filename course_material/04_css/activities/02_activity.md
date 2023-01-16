@@ -1,9 +1,8 @@
-# Relative File Paths
+# HTML
 
 ## Instructions
 
-- Modify each of the four html files such that they can access the CSS inside their respective folder.
+- Upgrade your previous HTML student-bio page using CSS style rules to match the image below.
+- Add, commit, and push your changes to your GitHub repository.
 
-### NOTE:
-
-Don't move the CSS file, and don't move the HTML file!
+<img src="../student_bio_styled.png" />
