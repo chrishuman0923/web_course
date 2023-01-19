@@ -1,0 +1,23 @@
+/**
+ * Hidden: let's hide elements from view
+ **/
+
+.box {
+  position: relative;
+}
+
+.box-1 {
+  top: 20px;
+
+  /* Hides element as if it's not there (compare with "visibility: hidden;"). */
+  display: none;
+}
+
+.box-2 {
+  left: 40px;
+}
+
+.box-3 {
+  right: 20px;
+  bottom: -10px;
+}

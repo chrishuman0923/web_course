@@ -1,0 +1,8 @@
+/**
+ * Static: Default positioning
+ **/
+
+.box {
+  /* Static positioning */
+  position: static;
+}

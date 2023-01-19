@@ -1,0 +1,12 @@
+/**
+ * Sticky Position: Anchors element to top when scrolled past
+ **/
+
+.box-set {
+  height: 150vh;
+}
+
+.box-2 {
+  position: sticky;
+  top: 0;
+}
