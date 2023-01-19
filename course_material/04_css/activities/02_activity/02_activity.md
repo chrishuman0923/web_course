@@ -2,7 +2,9 @@
 
 ## Instructions
 
-Using `floats.html` and `floats.css` as a starting point, work together to create the missing CSS necessary to form the layout shown to you on screen.
+Using `floats.html` and `floats.css` as a starting point, work together to create the missing CSS necessary to form the layout shown here.
+
+<img src="./floats.png">
 
 - This will not be easy so work at it as best you can. This is a challenging activity. At the very least, try to increase your understanding of CSS properties.
 
