@@ -1,0 +1,24 @@
+{
+  "name": "web_course",
+  "version": "1.0.0",
+  "description": "This course material is designed to give someone an introductory look at full-stack web application (MERN) development in 2023.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrishuman0923/web_course.git"
+  },
+  "keywords": [],
+  "author": "Chris Human <42072991+chrishuman0923@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrishuman0923/web_course/issues"
+  },
+  "homepage": "https://github.com/chrishuman0923/web_course#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "prettier": "^2.8.3"
+  }
+}
