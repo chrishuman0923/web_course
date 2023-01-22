@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #cdcdcd;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 40px auto;
+}
+
+#main-content,
+#sidebar {
+  width: 40%;
+  padding: 30px;
+}
+
+#main-content {
+  float: left;
+  background: #fff;
+}
+
+#sidebar {
+  float: right;
+  background: #eee;
+}
