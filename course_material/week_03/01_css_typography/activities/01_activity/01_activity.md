@@ -29,3 +29,7 @@ You will need to do three things to accomplish this task.
 - Create classes for each paragraph
 
 - Add in styles for each class
+
+## Output
+
+<img src="./output.png" />
