@@ -1,10 +1,10 @@
-# CSS Typography
+# CSS Flexbox
 
 In this activity, you'll be using CSS Flexbox to create a dynamic layout for mobile and desktop.
 
 ## Instructions
 
-- Using the files provided to you, write CSS and use flexbox and other flex properties to create a dynamic layout that matches the screenshots below.
+- Using the files provided to you, write CSS using flexbox and its properties to create a dynamic layout that matches the screenshots below.
 
 ### Tasks:
 
