@@ -1,0 +1,11 @@
+# setTimeout Activity
+
+## Instructions
+
+- Using the `setTimeout` function, create a function that will log "Hello" to the console after 5 seconds.
+
+- Create a second function that will log "Goodbye" to the console after 10 seconds.
+
+- Create a button on your page that can be clicked to cancel the "Hello" function from running.
+
+- Create a button on your button that can be clicked to cancel the "Goodbye" function from running.

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>setInterval Activity</title>
+  </head>
+  <body>
+    <button id="hello">Cancel Hello</button>
+    <button id="hello-restart">Restart Hello</button>
+
+    <button id="goodbye">Cancel Goodbye</button>
+    <button id="goodbye-restart">Restart Goodbye</button>
+
+    <script>
+      var helloElem = document.getElementById('hello');
+      var helloRestartElem = document.getElementById('hello-restart');
+      var goodbyeElem = document.getElementById('goodbye');
+      var goodbyeRestartElem = document.getElementById('goodbye-restart');
+
+      function hello() {
+        console.log('Hello');
+      }
+
+      function goodbye() {
+        console.log('Goodbye');
+      }
+
+      var helloIntervalId = setInterval(hello, 5000);
+      var goodbyeIntervalId = setInterval(goodbye, 10000);
+
+      helloElem.addEventListener('click', function () {
+        clearInterval(helloIntervalId);
+      });
+
+      helloRestartElem.addEventListener('click', function () {
+        helloIntervalId = setInterval(hello, 5000);
+      });
+
+      goodbyeElem.addEventListener('click', function () {
+        clearInterval(goodbyeIntervalId);
+      });
+
+      goodbyeRestartElem.addEventListener('click', function () {
+        goodbyeIntervalId = setInterval(goodbye, 10000);
+      });
+    </script>
+  </body>
+</html>
